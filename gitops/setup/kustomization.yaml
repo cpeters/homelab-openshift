@@ -5,4 +5,4 @@ kind: Kustomization
 resources:
   - ../../operators/openshift-gitops/instance/overlays/default
   - rbac.yaml
-  - argocd-appproject.yaml
+  - app-project.yaml
