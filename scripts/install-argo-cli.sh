@@ -7,7 +7,7 @@ set -x
 
 ARGO_DOWNLOAD_FILE="argocd-linux-amd64"
 ARGO_DOWNLOAD_URL="https://github.com/argoproj/argo-cd/releases/download"
-ARGO_INSTALL_PATH="${HOME}/bin"
+ARGO_INSTALL_PATH="/usr/local/bin"
 ARGO_RELEASE_URL="https://github.com/argoproj/argo-cd/releases/latest"
 
 # Make sure install path exists

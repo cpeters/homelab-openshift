@@ -7,7 +7,7 @@ set -x
 
 YQ_DOWNLOAD_FILE="yq_linux_amd64"
 YQ_DOWNLOAD_URL="https://github.com/mikefarah/yq/releases/download"
-YQ_INSTALL_PATH="${HOME}/bin"
+YQ_INSTALL_PATH="/usr/local/bin"
 YQ_RELEASE_URL="https://github.com/mikefarah/yq/releases/latest"
 
 # Make sure install path exists
