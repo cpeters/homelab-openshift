@@ -1,0 +1,18 @@
+{{- range .Values.groups }}
+---
+apiVersion: user.openshift.io/v1
+kind: Group
+metadata:
+{{- if .annotations }}
+  annotations:
+    {{- tpl (toYaml .annotations) $ | nindent 4 }}
+{{- end }}
+  labels:
+    {{- include "common.labels.labels" $ | nindent 4 }}
+{{- if .labels }}
+    {{- tpl (toYaml .labels) $ | nindent 4 }}
+{{- end }}
+  name: {{ .name }}
+users:
+  {{- tpl (toYaml .users) $ | nindent 2 }}
+{{- end }}
