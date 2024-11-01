@@ -25,7 +25,7 @@ spec:
       name: 'operator-{{index .path.segments 1}}'
     spec:
       # The project the application belongs to.
-      project: default
+      project: local-cluster
 
       # Source of the application manifests
       source:
