@@ -1,4 +1,4 @@
-# Bootstrap & Configure ArgoCD
+# Bootstrap & Configure ArgoCD, Enable Operators
 
 ## Enable the OpenShift GitOps operator on the cluster
 
