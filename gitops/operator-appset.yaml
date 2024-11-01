@@ -16,7 +16,7 @@ spec:
       - path: operators/lvm-storage/operator/overlays/stable-4.17
       - path: operators/openshift-devspaces/operator/overlays/stable
       - path: operators/openshift-pipelines/operator/overlays/pipelines-1.16
-      - path: operators/openshift-serverless/operator/overlays/stable-1.3.4
+      - path: operators/openshift-serverless/operator/overlays/stable-1.34
       - path: operators/web-terminal/operator/overlays/fast
         exclude: true
   template:
