@@ -1,5 +1,5 @@
 argocd:
-  project: default
+  project: local-cluster
   retry:
     backoff:
       duration: 5s
