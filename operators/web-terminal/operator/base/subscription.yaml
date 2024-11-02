@@ -3,7 +3,7 @@ kind: Subscription
 metadata:
   name: web-terminal
 spec:
-  channel: patch-me
+  channel: patch-me-see-overlays-dir
   installPlanApproval: Automatic
   name: web-terminal
   source: redhat-operators
