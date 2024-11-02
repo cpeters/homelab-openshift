@@ -6,6 +6,6 @@ metadata:
 spec:
   channel: patch-me-see-overlays-dir
   installPlanApproval: Automatic
-  name: openshift-pipelines-operator-rh
+  name: openshift-pipelines-operator
   source: redhat-operators
   sourceNamespace: openshift-marketplace

@@ -2,6 +2,4 @@ apiVersion: operators.coreos.com/v1
 kind: OperatorGroup
 metadata:
   name: openshift-storage-operatorgroup
-spec:
-  targetNamespaces:
-    - openshift-storage
+  namespace: openshift-storage
